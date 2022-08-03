@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+}
+h1{
+    text-align: center;
+    color: yellow;
+}
+#message-el{  
+    text-align: center;
+    font-size: 40px;
+    color:blue ;
+    font-style: italic ;
+    font-weight: bold;
+
+
+}
+.ab{
+    text-align: center;
+    font-size: 40px;
+    color:white ;
+    font-style: italic ;
+    font-weight: bold;
+
+}
+button{
+    text-align: center;
+    font-size: larger;
+    background-color: goldenrod;
+    color: red;
+    margin:auto;
+    margin-bottom: 8px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:block;
+    transition: 0.3S linear;
+
+}
+button:active{ 
+    transform:scale(0.85);
+    box-shadow: black 2px 2px 3px 3px;
+    
+    
+}
